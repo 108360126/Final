@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final">
         <activity
+            android:name=".MainActivity_hard"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity_medium"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity_easy"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity_workout"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
