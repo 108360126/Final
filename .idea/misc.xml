@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/Final/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Final/app/src/main/res/layout/activity_main_easy.xml" value="0.2390625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Final/app/src/main/res/layout/activity_main_hard.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Final/app/src/main/res/layout/activity_main_medium.xml" value="0.2390625" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Final/app/src/main/res/layout/activity_main_workout.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Final/app/src/main/res/layout/activity_my_dbhelper.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Final/app/src/main/res/layout/custom_toast.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Final/app/src/main/res/layout/custom_toast2.xml" value="0.25364583333333335" />
       </map>

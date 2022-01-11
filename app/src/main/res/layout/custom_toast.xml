@@ -21,7 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:text="恭喜你完成了"
+            android:text="訓練完成"
+            android:textSize="25dp"
             android:textColor="@android:color/background_light" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
