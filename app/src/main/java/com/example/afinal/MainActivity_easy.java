@@ -1,8 +1,5 @@
 package com.example.afinal;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
@@ -13,14 +10,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity_easy extends AppCompatActivity {
 
     private Button button4,button5;
-    private TextView textRest,text1,text2,text3;
     public int TV_case = 0,counter;
+    private ImageView Image;
     private void showToast1(){
         Toast toast = new Toast(MainActivity_easy.this);
         toast.setGravity(Gravity.TOP,0,50);
@@ -49,6 +50,7 @@ public class MainActivity_easy extends AppCompatActivity {
         final TextView text1 = findViewById(R.id.textView4);
         final TextView text2 = findViewById(R.id.textView6);
         final TextView text3 = findViewById(R.id.textView8);
+        Image = (ImageView) findViewById(R.id.imageView);
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,11 +63,13 @@ public class MainActivity_easy extends AppCompatActivity {
                             public void onTick(long millisUntilFinished) {
                                 text1.setText(String.valueOf(counter));
                                 counter++;
+                                Image.setImageResource(R.drawable.image1);
                             }
                             @Override
                             public void onFinish() {
                                 text1.setText("休息");
                                 text1.setTextColor(Color.parseColor("#00FF00"));
+                                Image.setImageDrawable(null);
                             }
                         }.start();
                         break;
@@ -76,11 +80,13 @@ public class MainActivity_easy extends AppCompatActivity {
                             public void onTick(long millisUntilFinished) {
                                 text2.setText(String.valueOf(counter));
                                 counter++;
+                                Image.setImageResource(R.drawable.image2);
                             }
                             @Override
                             public void onFinish() {
                                 text2.setText("休息");
                                 text2.setTextColor(Color.parseColor("#00FF00"));
+                                Image.setImageDrawable(null);
                             }
                         }.start();
                         break;
@@ -91,11 +97,13 @@ public class MainActivity_easy extends AppCompatActivity {
                             public void onTick(long millisUntilFinished) {
                                 text3.setText(String.valueOf(counter));
                                 counter++;
+                                Image.setImageResource(R.drawable.image3);
                             }
                             @Override
                             public void onFinish() {
                                 text3.setText("結束");
                                 text3.setTextColor(Color.parseColor("#00FF00"));
+                                Image.setImageDrawable(null);
                             };
                         }.start();
                         break;
