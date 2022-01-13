@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final">
         <activity
+            android:name=".MyDBHelper1"
+            android:exported="true" />
+        <activity
+            android:name=".Congratulation"
+            android:exported="true" />
+        <activity
+            android:name=".BodyBuildingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".fitness"
+            android:exported="true" />
+        <activity
             android:name=".MyDBHelper"
             android:exported="true" />
         <activity

@@ -34,7 +34,7 @@
         android:layout_height="103dp"
         android:layout_marginStart="132dp"
         android:layout_marginTop="44dp"
-        android:text="塑身"
+        android:text="運動清單"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
